@@ -17,7 +17,7 @@ body {
 .hero > div {
   position: absolute;
   top: 20vh;
-  left: 10vw;
+  left: 30vw;
   background-color: rgba(255, 255, 255, 0.637);
   width: 40%;
   padding: 1rem;
@@ -33,10 +33,12 @@ nav {
 nav > * {
   color: white;
 }
+nav {
+  padding: 2vh 5vh 2vh 5vh;
+}
 nav .container {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 6rem 1rem 6rem;
   align-items: center;
 }
 nav .container ul {
